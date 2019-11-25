@@ -16,3 +16,23 @@ body{
     background-color:#ffffff;
     border:3px solid #dddddd;
 }
+
+#box-title{
+    width:97.91667%;
+    height:40px;
+
+    border:2px solid #dddddd;
+    border-top:none;
+    border-right:none;
+    border-bottom:;
+    border-left:none;
+
+    margin-right:10px;
+    margin-left:10px;
+    margin-bottom:10px;
+
+    font-size:24pt;
+    color:#ffffff;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    background-color:teal;
+}
