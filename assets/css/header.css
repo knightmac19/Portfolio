@@ -40,11 +40,19 @@
     height:40px;
     width:200px;
     position:absolute;
-    bottom:0;
+    bottom:1px;
     right:12.5%;
     background-color:#ffffff;
     text-align:center;
-    line-height:35px;
+    line-height:36px;
+
+    /*
+    border:0px solid #dddddd;
+    border-top:none;
+    border-right:none;
+    border-bottom:;
+    border-left:none;
+    */
 
     padding-top:0px;
     padding-right:0px;
@@ -79,7 +87,7 @@
 
 /*Third link no-border */
 #no-border{
-    border-style:none;
+    border:none;
     color:#777777;
     padding-right:5px;
 }
