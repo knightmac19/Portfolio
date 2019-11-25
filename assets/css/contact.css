@@ -1,6 +1,7 @@
 html{
     height:100%;
 }
+
 body{
     background-image:url("rockywall.png");
     margin:0px;
@@ -10,7 +11,7 @@ body{
 
 #content-box{
     width:75%;
-    height:735px;
+    height:100%;
 
     padding-top:0px;
     padding-right:0px;
@@ -41,9 +42,9 @@ body{
     border-top:none;
     border-right:none;
     border-bottom:;
-    border-left:none;
-    
+    border-left:none;   
 }
+
 #box-title{
     height:100%;
     width:100%;
@@ -77,7 +78,6 @@ body{
 
     padding-right:0px;
     padding-left:0px;
-    
 }
 
 #textarea-1{
@@ -89,8 +89,8 @@ body{
 
     padding-right:0px;
     padding-left:0px;
-
 }
+
 #textarea-2{
     font-family:'Georgia', Times, 'Times New Roman', serif;
     color:#777777;
@@ -100,8 +100,8 @@ body{
 
     padding-right:0px;
     padding-left:0px;
-
 }
+
 #textarea-3{
     font-family:'Georgia', Times, 'Times New Roman', serif;
     color:#777777;
@@ -109,9 +109,8 @@ body{
     overflow:scroll;
     height:400px;
     width:100%;
-s
+
     padding-right:0px;
     padding-left:0px;
-
 }
-
+/*End input box area*/
