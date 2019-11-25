@@ -6,33 +6,7 @@
     height:30px;
     border-top: 3px solid #4aaaa5;
     margin-top:20px;
-    /*
-    padding-top:5px;
-    padding-right:;
-    padding-bottom:5px;
-    padding-left:;
-
-    margin-top:;
-    margin-right:;
-    margin-bottom:;
-    margin-left:;
-    
-    border-style:solid;
-    border-color:#4aaaa5;
-    border-top:20px;
-    border-right:0px;
-    border-bottom:0px;
-    border-left:0px;
-    */
 }
-
-/*
-#footer-child{
-    width:100%;
-    height:100%;
-    position:relative;
-}
-*/
 
 #copy-box{
     color:#ffffff;
@@ -52,7 +26,5 @@
     margin-bottom:0px;
     margin-left:auto;
     
-    
-
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
