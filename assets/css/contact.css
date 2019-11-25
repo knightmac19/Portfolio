@@ -8,7 +8,6 @@ body{
     min-height:100%;
 }
 
-
 #content-box{
     width:75%;
     height:735px;
@@ -38,7 +37,7 @@ body{
     margin-bottom:10px;
     margin-left:auto;
     
-    border:3px solid #dddddd;
+    border:2px solid #dddddd;
     border-top:none;
     border-right:none;
     border-bottom:;
@@ -48,7 +47,6 @@ body{
 #box-title{
     height:100%;
     width:100%;
-    line-height:25px;
 
     padding-right:0px;
     padding-left:0px;
@@ -111,7 +109,7 @@ body{
     overflow:scroll;
     height:400px;
     width:100%;
-
+s
     padding-right:0px;
     padding-left:0px;
 

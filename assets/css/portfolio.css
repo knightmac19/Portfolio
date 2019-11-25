@@ -7,9 +7,10 @@ body{
     padding:0px;
     min-height:100%;
 }
+
 #content-box{
     width:75%;
-    height:850px;
+    height:735px;
 
     padding-top:0px;
     padding-right:0px;
@@ -40,7 +41,7 @@ body{
     border-right:none;
     border-bottom:;
     border-left:none;
-    background-color:#ffffff;
+    
 }
 #box-title{
     height:100%;
