@@ -7,7 +7,6 @@
 }
 
 #name-box{
-    
     height:40px;
     width:16.796875%;
     position:absolute;
@@ -39,7 +38,7 @@
 /*links box positioning */
 .buttons-box{
     height:40px;
-    width:16.796875%;
+    width:25%;
     position:absolute;
     bottom:1px;
     right:12.5%;
