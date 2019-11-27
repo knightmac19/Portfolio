@@ -30,5 +30,5 @@ The homework was meant to develop/master the following skills:
   
   
   
-  ![About Me Image](./images/ReadMeImage.jpg)
+  ![About Me Image](./images/ReadMeImage.png)
   
