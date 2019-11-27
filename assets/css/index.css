@@ -26,6 +26,15 @@ body{
     background-color:#ffffff;
     border:3px solid #dddddd;
 }
+@media only screen and (max-width: 768px) {
+    #content-box {
+        width: 100%;
+        padding-right:0px;
+        padding-left:0px;
+        margin-right:0px;
+        margin-left:0px;
+    }
+}
 
 /*Content Title Start*/
 #row-title{
