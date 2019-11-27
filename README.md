@@ -28,5 +28,7 @@ The homework was meant to develop/master the following skills:
  2. CSS 3
  3. Bootstrap v4.4
   
+  
+  
   ![About Me Image](./images/ReadMeImage.jpg)
   
