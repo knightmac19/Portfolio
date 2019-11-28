@@ -41,9 +41,22 @@
 
     font-family:'Georgia', Times, 'Times New Roman', serif;
 }
+/*
+@media only screen and (max-width: 400px) {
+    #name-box {
+        width: 75%;
+        height:50%;
+        z-index: inherit 3;
+        font-size:3vw;
+        text-align:center;
+        padding-left:0px;
+        padding-bottom:10px;
+    }
+}
+*/
 @media only screen and (max-width: 768px) {
     #name-box {
-        width: 50%;
+        width: 75%;
         height:50%;
         z-index: inherit 3;
         font-size:24pt;
@@ -52,6 +65,7 @@
         padding-bottom:10px;
     }
 }
+
 
 /*links box positioning */
 .buttons-box{
@@ -82,7 +96,7 @@
 
 @media only screen and (max-width:768px){
     .buttons-box{
-        width:50%;
+        width:75%;
         height:50%;
         font-size:12pt;
         top:0px;
