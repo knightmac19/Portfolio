@@ -28,11 +28,11 @@ body{
 }
 @media only screen and (max-width: 768px) {
     #content-box {
-        width: 100%;
+        width: 75%;
         padding-right:0px;
         padding-left:0px;
-        margin-right:0px;
-        margin-left:0px;
+        margin-right:auto;
+        margin-left:auto;
     }
 }
 
