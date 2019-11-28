@@ -5,22 +5,29 @@
     border:3px solid #dddddd;
     position:relative;
 }
+@media only screen and (max-width: 768px) {
+    #header-box {
+        width: 100%;
+        height:100px;
+        
+    }
+}
 
 #name-box{
-    height:40px;
-    width:17%;
+    height:50px;
+    width:30%;
     position:absolute;
     bottom:0;
     left:12.5%;
     background-color:#4aaaa5;
     color:#ffffff;
     text-align:center;
-    line-height:35px;
+    line-height:45px;
 
     border:2px solid #dddddd;
     border-bottom:none;
 
-    font-size: 2.5vw;
+    font-size: 24pt;
 
     padding-top:0px;
     padding-right:0px;
@@ -34,19 +41,30 @@
 
     font-family:'Georgia', Times, 'Times New Roman', serif;
 }
+@media only screen and (max-width: 768px) {
+    #name-box {
+        width: 50%;
+        height:50%;
+        z-index: inherit 3;
+        font-size:24pt;
+        text-align:center;
+        padding-left:0px;
+        padding-bottom:10px;
+    }
+}
 
 /*links box positioning */
 .buttons-box{
-    height:40px;
-    width:20%;
+    height:50px;
+    width:30%;
     position:absolute;
     bottom:1px;
     right:12.5%;
     background-color:#ffffff;
     text-align:center;
-    line-height:36px;
+    line-height:46px;
 
-    font-size:1.25vw;
+    font-size:12pt;
 
     padding-top:0px;
     padding-right:0px;
@@ -64,9 +82,15 @@
 
 @media only screen and (max-width:768px){
     .buttons-box{
-        width:35%;
+        width:50%;
+        height:50%;
+        font-size:12pt;
+        top:0px;
+        left:12.5%;
+        z-index: inherit 2;
         text-align:center;
-        font-size:2.2vw;
+        padding-left:0px;
+        padding-bottom:10px;
     }    
 
 }
