@@ -6,6 +6,7 @@
     height:30px;
     border-top: 3px solid #4aaaa5;
     margin-top:20px;
+    z-index:4;
 }
 
 #copy-box{
