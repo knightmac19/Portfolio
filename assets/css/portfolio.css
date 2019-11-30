@@ -27,7 +27,7 @@ body{
     border:3px solid #dddddd;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 576px) {
     #content-box {
         width: 100%;
         padding-right:0px;

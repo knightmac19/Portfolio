@@ -30,15 +30,7 @@ body{
 }
 
 
-@media only screen and (max-width: 600px) {
-    #content-box {
-        width: 100%;
-        padding-right:0px;
-        padding-left:0px;
-        margin-right:0px;
-        margin-left:0px;
-    }
-}
+
 
 /*Content Title Start*/
 #row-title{
@@ -116,4 +108,14 @@ body{
 
 #submit:active{
     background-color:#06beb5;
+}
+
+@media only screen and (max-width: 576px) {
+    #content-box {
+        width: 100%;
+        padding-right:0px;
+        padding-left:0px;
+        margin-right:0px;
+        margin-left:0px;
+    }
 }
