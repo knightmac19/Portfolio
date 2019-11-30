@@ -79,51 +79,6 @@ body{
     margin-bottom:10px;
     margin-left:auto;
 }
-
-#column-label{
-    font-family:'Georgia', Times, 'Times New Roman', serif;
-    color:#777777;
-    font-weight:bold;
-    height:100%;
-    width:100%;
-
-    padding-right:0px;
-    padding-left:0px;
-}
-
-#textarea-1{
-    font-family:'Georgia', Times, 'Times New Roman', serif;
-    color:#777777;
-    font-weight:bold;
-    height:100%;
-    width:100%;
-
-    padding-right:0px;
-    padding-left:0px;
-}
-
-#textarea-2{
-    font-family:'Georgia', Times, 'Times New Roman', serif;
-    color:#777777;
-    font-weight:bold;
-    height:400px;
-    width:100%;
-
-    padding-right:0px;
-    padding-left:0px;
-}
-
-#textarea-3{
-    font-family:'Georgia', Times, 'Times New Roman', serif;
-    color:#777777;
-    font-weight:bold;
-    overflow:scroll;
-    height:400px;
-    width:100%;
-
-    padding-right:0px;
-    padding-left:0px;
-}
 /*End input box area*/
 /*Submit button*/
 #submit-column{
