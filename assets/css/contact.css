@@ -1,5 +1,7 @@
 html{
     height:100%;
+    margin:0px;
+    padding:0px;
 }
 
 body{
@@ -28,7 +30,7 @@ body{
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #content-box {
         width: 100%;
         padding-right:0px;
