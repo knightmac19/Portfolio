@@ -11,6 +11,29 @@ body{
     min-height:100%;
 }
 
+.col-links {
+    /* margin-left:20px; */
+    width:100%;
+}
+
+
+.form-links:hover{
+    color:#4aaaa5;
+}
+
+.form-links:active{
+    color:#1b857f;
+}
+.form-links {
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue' Helvetica, sans-serif;
+    font-weight:bold;
+}
+.content-row {
+    margin-right:0px;
+    margin-left:0px;
+}
+
 #content-box{
     width:75%;
     height:100%;
@@ -46,7 +69,7 @@ body{
     border:2px solid #dddddd;
     border-top:none;
     border-right:none;
-    border-bottom:;
+    
     border-left:none;   
 }
 
@@ -125,3 +148,4 @@ body{
         margin-left:0px;
     }
 }
+

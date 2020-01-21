@@ -30,37 +30,62 @@
             <div id="box-title" class="col-md-12">Contact</div>
         </div>
 
-        <form>
-        <div id="row-box" class="form-group">
-            <label for="exampleFormControlTextarea1">Name</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-        </div>
-        <div id="row-box" class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div id="row-box" class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-            </div>
-        </form>
+        <div class="row content-row">
+            <div class="col-md-2 col-links">
 
-        <!--Submit button-->
-        <div id="row-box" class="row">
-            <div id="submit-column" class="col-md-2"><button id="submit">Submit</button></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-2"></div>
-        </div>    
+                <form>
+                    <div id="row-box" class="form-group">
+                        <a class="form-links" href="https://github.com/knightmac19" target="_blank">Github</a>
+                    </div>
+
+                    <div id="row-box" class="form-group">
+                        <a class="form-links" href="https://www.linkedin.com/in/patrick-dunn-3a14249b/" target="_blank">LinkedIn</a>
+                    </div>
+
+                    <div id="row-box" class="form-group">
+                        <a class="form-links" href="https://drive.google.com/open?id=1qaw7V9DdB_901YMIr1KPAuqNuVUGuY8b" target="_blank">Resume</a>
+                    </div>
+                    
+                </form>
+                
+                
+            </div>
+            <div class="col-md-9">
+                <form action="contact.php" method="post" enctype="multipart/form-data">
+                    <div id="row-box" class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input name="name" type="text" class="form-control" id="exampleFormControlInput1" rows="1"></input>
+                    </div>
+                    <div id="row-box" class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div id="row-box" class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                    <!--  -->
+                    <div id="row-box" class="form-group">
+                        <button type="submit" id="submit-column" class="btn" id="submit">Submit</button>
+                    </div>
+                    <!--  -->
+                </form>
+            </div>
+        </div>
         
     </div>
 
     <footer id="footer-parent">
-        <div id="copy-box">Copyright &copy; 2019</div>
+        <div id="copy-box">Copyright &copy; 2019 Patrick Dunn</div>
     </footer>
 
+    <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Bootstrap scripts -->
     
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="assets/scripts/script.js"></script>
 </body>
 </html>

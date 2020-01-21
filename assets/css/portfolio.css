@@ -51,7 +51,7 @@ body{
     border:2px solid #dddddd;
     border-top:none;
     border-right:none;
-    border-bottom:;
+    
     border-left:none;
 }
 
@@ -82,8 +82,8 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
-    #portfolio-row: {
-        padding-top:0px;
+    #portfolio-row {
+        padding-top:10px;
         padding-right:0px;
         padding-bottom:0px;
         padding-left:0px;
