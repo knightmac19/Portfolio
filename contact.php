@@ -2,7 +2,7 @@
 
 
 
-    // youtube tutorial:
+    // youtube tutorial: https://www.youtube.com/watch?v=Ge_IZlC4N4o
         $name = $_POST["name"];
         $email = $_POST["name"];
         $message = $_POST["name"];
