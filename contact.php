@@ -1,12 +1,10 @@
  <?php
 
-
-
     // youtube tutorial: https://www.youtube.com/watch?v=Ge_IZlC4N4o
         $name = $_POST["name"];
         $email = $_POST["email"];
         $message = $_POST["message"];
-        echo $name
+        // echo $name
 
         $email_from = "Portfolio Site";
         $email_subject = "New Message from Portfolio";
