@@ -27,6 +27,18 @@ body{
     border:3px solid #dddddd;
 }
 
+.form-links:hover{
+    color:#4aaaa5;
+}
+
+.form-links:active{
+    color:#1b857f;
+}
+.form-links {
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue' Helvetica, sans-serif;
+    font-weight:bold;
+}
 @media only screen and (max-width: 576px) {
     #content-box {
         width: 100%;
@@ -145,13 +157,13 @@ body{
 #portfolio-label{
     position:absolute;
     bottom:10px;
-    height:20px;
+    height:40px;
     width:100%;
     z-index:3;
     background-color:#4aaaa5;
     color:#ffffff;
     text-align:center;
-    line-height:20px;
+    line-height:40px;
     font-size:14pt;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
